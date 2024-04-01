@@ -1,1 +1,8 @@
 filefor?=Wii U
+detector start
+if unbreakable-nand=1
+then 
+del=nand.elf
+load=("nand-creator.cspl")
+detector end
+return Wii U
