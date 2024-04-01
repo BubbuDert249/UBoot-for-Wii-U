@@ -1,0 +1,13 @@
+filefor?=Wii U 
+nand start
+nand-config=0
+r create=nand.unbreak
+set{unbreak}=unbreakable
+nand end
+if detect console.error?
+  then repeat=("nand")
+if license-need?=true
+load=("LICENSE")
+if file-ext-need?true
+  load=(".gitignore")
+return wiiu
