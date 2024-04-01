@@ -1,7 +1,7 @@
 # UBoot-for-Wii-U
-Hi this is UBoot for Wii U In CSPL (Custom Scripts Programming Language)
-NOTE: CSPL is similar to C++.
-NOTICE: The all files without readme need be in Wii U
+Hi this is UBoot for Wii U In CSPL (Custom Scripts Programming Language) <br>
+NOTE: CSPL is similar to C++. <br>
+NOTICE: The all files without readme need be in Wii U <br>
 <hr>
 How to Download to Wii U?     
 1. Insert all files without readme to USB or SD Card <br>
