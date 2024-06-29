@@ -10,4 +10,10 @@ if license-need?=true
 load=("LICENSE")
 if file-ext-need?true
   load=(".gitignore")
+end()
+create(u-nand.bin)
+  content[binary.nand]
+end()
+enter(-10000) if entering(10000) then sys.restart.force{ActionAfter(open nand-creator.cspl)}
+hexadecimal.FactoryReset(.hex/.dec)
 return wiiu
